@@ -1,0 +1,7 @@
+%div{ class: dom_id(comment) }
+  %blockquote
+    %p.comment-body= comment.body
+    %footer
+      %span.comment-creator= comment.name
+      |
+      %span.comment-created-at= l(comment.created_at)

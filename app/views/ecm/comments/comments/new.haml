@@ -1,0 +1,5 @@
+%h1= t(".title")
+
+= simple_form_for(@resource, url: ecm_comments.url_for(@resource)) do |f|
+  = render partial: 'form_errors', locals: { resource: @resource } if @resource.errors.any?
+  = render partial: 'form', locals: { form: f }

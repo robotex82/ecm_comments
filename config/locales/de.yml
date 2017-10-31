@@ -1,0 +1,11 @@
+de:
+  activerecord:
+    models:
+      ecm/comments/comment:
+        one: Kommentar
+        other: Kommentare
+  ecm:
+    comments:
+      commentable:
+        comments_information: "%{comments_count} Kommentare"
+        new: "Kommentieren"

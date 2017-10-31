@@ -1,0 +1,7 @@
+= form.input :commentable_type, as: :hidden
+= form.input :commentable_id, as: :hidden
+= form.input :name
+= form.input :email
+= form.input :nickname, input_html: { style: 'display: none;' }, label_html: { style: 'display: none;' }
+= form.input :body
+= form.submit class: 'btn btn-primary'

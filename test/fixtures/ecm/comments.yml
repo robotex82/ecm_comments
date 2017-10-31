@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  commentable_type: MyString
+  commentable_id: 1
+  name: MyString
+  homepage: MyString
+  email: MyString
+  body: MyText
+  created_by_id: 1
+  created_by_ip_address: MyString
+  updated_by_id: 1
+  updated_by_ip_address: MyString
+
+two:
+  commentable_type: MyString
+  commentable_id: 1
+  name: MyString
+  homepage: MyString
+  email: MyString
+  body: MyText
+  created_by_id: 1
+  created_by_ip_address: MyString
+  updated_by_id: 1
+  updated_by_ip_address: MyString

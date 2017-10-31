@@ -1,0 +1,8 @@
+#comments
+  %h2= "#{Ecm::Comments::Comment.model_name.human(count: :other)} (#{resource.comments.count})"
+  = render resource.comments.order(created_at: :desc)
+
+  %h2= t('.new', model_name: @comment.class.model_name.human)
+  = simple_form_for(@comment, url: ecm_comments.url_for(@comment)) do |f|
+    = render partial: 'ecm/comments/comments/form_errors', locals: { resource: @comment } if @comment.errors.any?
+    = render partial: 'ecm/comments/comments/form', locals: { form: f }

@@ -1,10 +1,10 @@
 module Ecm
   module Comments
     class CommentsController < Ecm::Comments::Configuration.base_controller.constantize
-      include Controller::ResourceConcern
-      include Controller::ResourceUrlsConcern
-      include Controller::ResourceInflectionsConcern
-      include Controller::RestActionsConcern
+      include ResourcesController::Resources
+      include ResourcesController::ResourceInflections
+      include ResourcesController::RestResourceUrls
+      include ResourcesController::RestActions
 
       helper Twitter::Bootstrap::Components::Rails::V3::ComponentsHelper
 

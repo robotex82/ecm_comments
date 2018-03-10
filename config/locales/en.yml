@@ -1,0 +1,28 @@
+en:
+  activerecord:
+    models:
+      ecm/comments/comment:
+        one: Comment
+        other: Comments
+    attributes:
+      ecm/comments/comment:
+        id: ID
+        commentable_type: Commented object type
+        commentable: Commented object
+        commentable_id: Commented object
+        name: Author name
+        homepage: Author homepage
+        email: E-Mail
+        body: Body
+        created_by: Author
+        created_by_id: Author
+        created_by_ip_address: Author IP
+        updated_by_id: Updated by
+        updated_by_ip_address: Updated by IP
+        created_at: Created at
+        updated_at: Updated at
+  ecm:
+    comments:
+      commentable:
+        comments_information: "%{comments_count} comments"
+        new: "Add comment"

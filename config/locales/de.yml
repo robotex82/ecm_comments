@@ -4,6 +4,23 @@ de:
       ecm/comments/comment:
         one: Kommentar
         other: Kommentare
+    attributes:
+      ecm/comments/comment:
+        id: ID
+        commentable_type: Kommentiertes Objekt-Typ
+        commentable: Kommentieres Objekt
+        commentable_id: Kommentieres Objekt
+        name: Ersteller-Name
+        homepage: Ersteller-Homepage
+        email: E-Mail
+        body: Inhalt
+        created_by: Erstellt von
+        created_by_id: Erstellt von
+        created_by_ip_address: Ersteller IP Adresse
+        updated_by_id: Aktualisiert von
+        updated_by_ip_address: Aktualisierer IP Adresse
+        created_at: Erstellt am
+        updated_at: Aktualsiert am
   ecm:
     comments:
       commentable:

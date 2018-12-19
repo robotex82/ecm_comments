@@ -1,4 +1,4 @@
-require 'twitter_bootstrap_components_rails'
+require 'twitter-bootstrap-components-rails'
 
 require "ecm/comments"
 require "ecm/comments/engine"
